@@ -206,6 +206,10 @@ button:hover {
     cursor: default;
 }
 
+a:default {
+    color: #fff;
+}
+
 .footer:link {
     text-decoration: none;
 }
