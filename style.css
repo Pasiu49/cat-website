@@ -1,0 +1,233 @@
+body {
+    background-color: rgb(177, 128, 226);
+    margin: 0;
+    width: 100%;
+    max-width: 2560px;
+    min-width: 1000px;
+}
+
+
+.section1 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    background-color: rebeccapurple;
+    padding-bottom: 200px;
+}
+
+.header {
+    display: flex;
+    margin: auto 100px;
+    padding: 20px;
+}
+
+#logo {
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    animation: 3s linear 0s infinite running myRotation;
+}
+
+#links {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+li {
+    color: #fff;
+    font-size: 40px;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0px;
+}
+
+.text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 20px;
+    margin: 0 100px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: #fff 2px solid;
+    border-radius: 5px;
+}
+
+#main {
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+
+.section2 {
+    background-color: blueviolet;
+    height: 600px;
+    width: 100%;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+#group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.admins {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.group-members {
+    width: 200px;
+    height: 200px;
+    border: 10px dotted white;
+}
+
+
+.section3 {
+    margin: 0;
+    height: 500px;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 40px;
+    padding: 20px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-author {
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.quote {
+    margin: 0;
+}
+
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.content2 {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(159, 76, 236);
+}
+
+.advert {
+    padding: 20px 100px;
+}
+
+h6, #sign {
+    margin: 0;
+    padding: 0;
+}
+
+#sign {
+    font-size: 20px;
+}
+
+
+.section5 {
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 150px;
+}
+
+.icons {
+    color: #fff;
+    height: 100px;
+    width: 100px;
+}
+
+
+p:hover, h1:hover, h2:hover{
+    cursor: default;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(228, 213, 238);
+    border-color: rgb(228, 213, 238);
+    color: #fff;
+}
+
+#button:hover {
+    cursor: default;
+}
+
+.footer:link {
+    text-decoration: none;
+}
+
+.footer:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer:active {
+    color: rgb(228, 213, 238);
+}
+
+.icons:hover {
+    scale: 1.2;
+}
+
+@keyframes myRotation {
+    100% {transform: rotateZ(360deg);}
+}
